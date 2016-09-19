@@ -1,0 +1,72 @@
+h1{
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    height: 50px;
+    font-family: "Courier New";
+}
+h2{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 22px;
+    height: 60px;
+    font-family: "Courier New";
+}
+body{
+    background-image: url(PhoneDirectory_Wallpaper.jpg);
+}
+
+/* Tables */
+#display-table, #entry-table {
+    border: 1px solid black;
+    position: relative;
+    bottom: 400px;
+    left: 140px;
+}
+
+th, td{
+    border: 1px solid black;
+}
+
+
+/* Description */
+#description-options{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    height: 195px;
+    font-family: "Courier New";
+}
+
+/* Text input/ text data */
+input[type="text"]{
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+#data{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    height: 245px;
+    width: 100%;
+    font-family: "Courier New";
+}
+
+/* Buttons */
+input[type="button"]{
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Courier New";
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-frame{
+    text-align: center;
+    height: 50px;
+}

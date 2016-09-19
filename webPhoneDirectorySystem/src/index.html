@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <head>
+        <title>Phone Directory</title>
+        <link href="index.css" type="text/css"
+              rel="stylesheet" />
+    </head>
+    <body>
+        <p>
+        <h1>Phone Pages</h1>
+        <h2>A basic phone directory.</h2>
+        <div id="description-options">
+            Fill out the forms below to add your entry to the phone directory. <br />
+            Options:<br />
+            1) Create - Create new entry<br />
+            2) Delete - Delete an entry based on phone number<br />
+            3) Display - Display all current entries<br />
+            4) Search - Search for an entry based on phone number<br />
+            5) Clear - Clear tables and form data <br />
+            6) Update - Update an existing entry based on phone number
+        </div>
+        <form id = "data">
+            <!-- size should not be used, instead css should be used to specify the width of the input text-->
+            Name: <input type="text" name="name" maxlength="25" /> <br /> <br />
+            Address: <input type="text" name="address" maxlength="40" /> <br /> <br />
+            Phone Number: <input type="text" name="phoneNumber"  maxlength="14" /> <br /> <br />
+        </form>
+
+        <!-- Buttons -->
+        <div class="button-frame">
+            <input type="button" value="Create" onclick="submit()" />
+            <input type="button" value="Delete" onclick="deleteEntry()" />
+            <input type="button" value="Display" onclick="displayTable()" />
+            <input type="button" value="Search" onclick="getEntry()" />
+            <input type="button" value="Clear" onclick="clearData()" />
+            <input type="button" value="Update" onclick="updateEntry()" />
+        </div>
+
+        <!-- Used for displaying one entry -->
+        <div id="entry"></div>
+        <div id="display"></div>
+
+        <script type="application/javascript" src="ajax.js"></script>
+
+    </body>
+</html>

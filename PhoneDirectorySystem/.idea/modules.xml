@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PhoneDirectorySystem.iml" filepath="$PROJECT_DIR$/PhoneDirectorySystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../WebStorm/workspace/phone_directory/phone_directory.iml" filepath="$PROJECT_DIR$/../../../WebStorm/workspace/phone_directory/phone_directory.iml" />
+    </modules>
+  </component>
+</project>
